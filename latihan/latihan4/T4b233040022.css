@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Style */
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/background.jpg);
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header a {
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.header a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 3px;
+    transform-origin: right;
+    transform: scaleZ(0);
+    transition: transform .5s;
+}
+
+.header a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.hero {
+    height: 400px;
+    background-image: url(img/LoadingScreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -65px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content .penulis {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.content .penulis a {
+    font-weight: bold;
+    color: rgb(32, 0, 128);
+    text-decoration: none;
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.XBorg {
+    height: 400px;
+    margin-bottom: 30px;
+    background-image: url(img/XBorg.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+}
+
+.Fredrinn {
+    height: 400px;
+    margin-bottom: 30px;
+    background-image: url(img/Fredrinn.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.Bruno {
+    height: 400px;
+    margin-bottom: 30px;
+    background-image: url(img/Bruno.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.Nolan {
+    height: 400px;
+    margin-bottom: 30px;
+    background-image: url(img/Nolan.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.Novaria {
+    height: 400px;
+    margin-bottom: 30px;
+    background-image: url(img/Novaria.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+}
+
+.content h3 a{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #e6d9d9;
+    text-align: center;
+    font-size: 12px;
+}

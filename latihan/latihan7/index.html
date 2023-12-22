@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">ONIC</h2>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">300k</h4>
+                <p class="item">Hoddie</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">250k</h4>
+                <p class="item">Jersey</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>ONIC</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="Home">Home</a></li>
+                <li><a href="Product">Product</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><i class='bx bxs-game'></i></div>
+                <h3>ONIC</h3>
+                <p>Onic Esports adalah tim olahraga elektronik asal Indonesia yang didirikan oleh Justin Widjaja sebagai Founder.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"><i class='bx bxs-flag-alt' ></i></div>
+                <h3>Sejarah</h3>
+                <p>ONIC Esports berdiri pada tanggal 26 Juli 2018. Pada awalnya ONIC Esports hanya ada tim Mobile Legends untuk mengikuti MPL ID season 2. Seiring dengan melesatnya popularitas tim ONIC Esports, ONIC pun mengumumkan tim ONIC Esports di divisi game lain seperti Free Fire, PUBG Mobile, dan beberapa game e-sport lainnya.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"><i class='bx bx-male-female'></i></div>
+                <h3>Fanclub ONIC</h3>
+                <p>SONIC Republic berdiri pada 10 September 2018. pada awalnya Fanclub ini berdiri secara Online melalui Media sosial Instagram, sejak MPL ID S2 dengan nama SOBAT ONIC (SONIC). pada Tanggal 30 Juni 2023 SONIC di deklarasikan menjadi SONIC Republic. harapan besar kepada SONIC agar kita bisa sama sama menjadi FANSCLUB Mandiri.</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"><i class='bx bxs-trophy'></i></div>
+                <h3>Prestasi</h3>
+                <p> Posisi Ke-1 MPL ID REGULAR SEASON S3<br>
+                    Posisi Ke-1 MPL ID SEASON 3 PLAYOFF<br>
+                    Posisi Ke-1 MSC 2019 PHILIPPINES<br>
+                    Posisi Ke-1 MLBB ALL STAR 2019<br>
+                    Posisi Ke-5 MPL ID REGULAR SEASON S4<br>
+                    Posisi Ke-4 MPL ID SEASON 4 PLAYOFF<br>
+                    Posisi Ke-5 MPL ID REGULAR SEASON S5<br>
+                    Posisi Ke-5 MPL ID SEASON 5 PLAYOFF.<br>
+                    Dan masih banyak lagi.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/210x210" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click',function () {
+            nav.classList.toggle('slide');
+        })
+    </script>
+    
+</body>
+</html>

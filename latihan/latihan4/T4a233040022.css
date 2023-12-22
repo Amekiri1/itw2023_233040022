@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
+   License: none (public domain) 
 */
 
 html, body, div, span, applet, object, iframe,
@@ -52,7 +52,7 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/19742.jpg);
+    background-image: url(img/background.jpg);
     color: #333;
 }
 
